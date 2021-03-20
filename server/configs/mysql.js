@@ -62,7 +62,7 @@ const queryRecords = (email) => {
 const addRecord = (recordInfo) => {
     return new Promise((resolve, reject) => {
         pool.query(
-            `INSERT INTO consultationrecord (doctorname, patientname, diagnosis, medication, consultationfee, datetime, followup, userid) VALUES (${recordInfo.doctorname}', '${recordInfo.patientname}', '${recordInfo.diagnosis}', '${recordInfo.medication}', '${recordInfo.consultationfee}', '${recordInfo.datetime}', '${recordInfo.followup}', '${recordInfo.userid}')`,
+            `INSERT INTO consultationrecord (doctorname, patientname, diagnosis, medication, consultationfee, datetime, followup, userid) VALUES ('${recordInfo.doctorname}', '${recordInfo.patientname}', '${recordInfo.diagnosis}', '${recordInfo.medication}', '${recordInfo.consultationfee}', '${recordInfo.datetime}', '${recordInfo.followup}', '${recordInfo.userid}')`,
             (err, rows, fields) => {
                 if (err) reject(err);
                 else resolve('success');
