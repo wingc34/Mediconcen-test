@@ -1,0 +1,7 @@
+[{"recordId":1, "doctorname":"ken", "patientname":"amy", "diagnosis":"dfgs", "medication":"dfsgfd", "consultationfee":100, "datetime":"2021-05-05 15:00:00", "followup":0, "userid":7},
+ {"recordId":2, "doctorname":"xiu", "patientname":"bee", "diagnosis":"sbdfb", "medication":"bvbc", "consultationfee":200, "datetime":"2021-04-05 12:00:00", "followup":1, "userid":7},
+ {"recordId":3, "doctorname":"eee", "patientname":"tee", "diagnosis":"svsd", "medication":"dfgsgs", "consultationfee":200, "datetime":"2021-03-22 12:00:00", "followup":1, "userid":7},
+ {"recordId":5, "doctorname":"eee", "patientname":"tee", "diagnosis":"qqq", "medication":"wwww", "consultationfee":500, "datetime":"2021-03-22 15:00:00", "followup":1, "userid":19},
+ {"recordId":6, "doctorname":"aaa", "patientname":"bbb", "diagnosis":"gfdgsd", "medication":"fdgsdg", "consultationfee":150, "datetime":"2021-03-30 15:00:00", "followup":0, "userid":19},
+ {"recordId":7, "doctorname":"qq", "patientname":"gdfg", "diagnosis":"bdgh", "medication":"dsghdhgh123", "consultationfee":250, "datetime":"2021-03-19 15:00:00", "followup":1, "userid":19},
+ {"recordId":8, "doctorname":"ffg", "patientname":"bbb", "diagnosis":"gfdgsd", "medication":"fdgsdg", "consultationfee":150, "datetime":"2021-03-30 11:00:00", "followup":0, "userid":19}]
