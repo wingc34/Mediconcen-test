@@ -1,4 +1,3 @@
-# Mediconcen-Code-Test
 
 ## How to run Frontend
 Type these command in terminal of the project:
